@@ -8,7 +8,7 @@ const roboto = Roboto({
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full">
       <Image
         src="/dan-meyers-IQVFVH0ajag-unsplash.jpg"
         width={3992}
@@ -17,37 +17,37 @@ export default function Home() {
         style={{
           filter: "brightness(90%) hue-rotate(0deg)",
         }}
-        className="w-full h-[30rem] object-cover"
+        className="w-full h-[25rem] md:h-[30rem] object-cover"
       />
       <Image
         src="/logo.png"
         width={100}
         height={100}
         alt="MinnCC Logo"
-        className="absolute top-4 left-48"
+        className="absolute top-4 md:left-48 left-1/2 transform -translate-x-1/2"
       />
-      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full">
         <h1
           style={{
             textShadow: "2px 2px 5px #333",
           }}
-          className={`text-5xl font-bold ${roboto.className}`}
+          className={`md:text-5xl text-4xl font-bold ${roboto.className}`}
         >
           MinnCC &mdash; Connecting Farmers and Businesses
         </h1>
-        <a href="#" className="btn btn-primary btn-lg mt-4">
-          Buy credits
+        <a href="#" className="btn btn-primary mt-4">
+          Buy offsets
         </a>
-        <a href="seller-form" className="btn btn-secondary btn-lg mt-4 ml-6">
-          Sell credits
+        <a href="seller-form" className="btn btn-secondary mt-4 ml-5">
+          Sell offsets
         </a>
       </div>
 
       <div
-        className={`min-h-screen bg-base-100 text-base-content grid grid-cols-12 px-48 py-16 gap-16 ${roboto.className}`}
+        className={`bg-base-100 text-base-content grid grid-cols-12 px-4 py-6 md:px-48 md:py-16 gap-4 md:gap-16 ${roboto.className}`}
       >
-        <div className="col-span-8">
-          <div className="text-center lg:text-left">
+        <div className="col-span-12 md:col-span-8">
+          <div className="">
             <h4 className="text-2xl font-bold">Who Are We?</h4>
             <p className="py-2 mb-4">
               We exist to connect two constituencies - landowners and
@@ -159,14 +159,14 @@ export default function Home() {
             </ul>
           </div>
         </div>
-        <div className="col-span-4">
-          <div className="card w-full max-w-sm shadow-2xl bg-base-100 p-4">
+        <div className="col-span-12 md:col-span-4">
+          <div className="card w-full md:max-w-sm shadow-2xl bg-base-100 p-4">
             <h3 className="text-2xl font-bold">
               See how many credits you have and how much you can sell them for
             </h3>
-            <button className="btn btn-primary my-4">
+            <a href="seller-form" className="btn btn-primary my-4">
               Click Here To Start Selling
-            </button>
+            </a>
             <h4 className="text-2xl font-bold">About MinnCC</h4>
             <p>
               MinnCC is a platform that helps farmers earn money by selling
