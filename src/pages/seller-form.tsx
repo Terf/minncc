@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { section1, section2 } from "./questions/seller-form";
+import { section1, section2 } from "../questions/seller-form";
 
 type FormInput = {
   label: string;
