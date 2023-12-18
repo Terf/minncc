@@ -50,12 +50,13 @@ export default function Home() {
           <div className="">
             <h4 className="text-2xl font-bold">Who Are We?</h4>
             <p className="py-2 mb-4">
-              We exist to connect two constituencies - landowners and
+              We exist to connect two constituencies &mdash; landowners and
               businesses. We help landowners unlock value from their existing
-              properties. Landowners include farmers who could monetize their
-              carbon saving processes to wilderness owners who are looking for
-              alternative revenue streams. We exist to create and provide a
-              market for new carbon reduction plans. That market serves small
+              properties. “Landowners” is a term that includes farmers who could
+              monetize their carbon saving processes all the way to wilderness
+              owners looking for alternative revenue streams. MinnCC exists to
+              create and provide a market for any new carbon reduction plan that
+              would generate credits used for offsets. Our market serves small
               and midsize businesses who, for any reason, want to offset their
               emissions.
             </p>
@@ -87,10 +88,10 @@ export default function Home() {
             </p>
             <ul className="list-disc pl-8">
               <li>
-                <span>Agroforestry - the </span>
                 <span>
-                  combination of agricultural and forestry practices to improve
-                  environmental quality, productivity and economic returns.{" "}
+                  Agroforestry &mdash; the combination of agricultural and
+                  forestry practices to improve environmental quality,
+                  productivity and economic returns.
                 </span>
               </li>
               <li>
@@ -103,7 +104,7 @@ export default function Home() {
               <li>
                 <span>
                   Enhancing the amount of organic carbon content retained in
-                  soils.{" "}
+                  soils.
                 </span>
               </li>
               <li>
@@ -113,7 +114,7 @@ export default function Home() {
               </li>
               <li>
                 <span>
-                  Engaging in livestock and manure management practices.{" "}
+                  Engaging in livestock and manure management practices.
                 </span>
               </li>
             </ul>
@@ -121,28 +122,27 @@ export default function Home() {
               Farming And Carbon Credits: How to Get Started
             </h4>
             <p className="py-2 mb-4">
-              First, fill out the form linked in the [describe where the button
-              is].{" "}
+              First, click “Sell Offsets” and fill out the accompanying form.
+              MinnCC has the expertise, tools, and support to maximize this new
+              revenue stream.We will help you devise a plan to implement farming
+              practices to improve soil health, enhancing its carbon
+              sequestration and reducing carbon emissions.
+            </p>
+            <h4 className="text-2xl font-bold mt-4">
+              What Does Carbon Farming Look Like?
+            </h4>
+            <p className="py-2 mb-4">
+              Carbon farming is a science-based approach involving measuring
+              initial data on the farm to know how changes can best be
+              implemented and verified. This initial measurement allows us to
+              verify all carbon credits you generate. We will contact you to
+              gather baseline farm data including 3-5 years data on crops,
+              yields, fertilizer rate application, farm practices, etc. This
+              data will be used to both match you with the best possible carbon
+              farming process and to account for all the generated carbon
+              credits.
             </p>
             <p className="py-2 mb-4">
-              Next, know that carbon farming takes full commitment to be
-              successful from the beginning and that MinnCC has the expertise,
-              tools, and support you need.We will help you devise a plan to
-              implement farming practices to improve soil health, enhance its
-              carbon sequestration, thus reducing carbon emissions. Carbon
-              farming is a science-based approach that involves measuring
-              initial data on the farm to know how change can be implemented
-              best with verifiable results. This initial measurement allows us
-              to verify all carbon credits granted based on our robust
-              measurement and assessment. After determining your eligibility we
-              will contact you to gather baseline farm data including 3-5 years
-              data on crops, yields, fertilizer rate application, farm
-              practices, and so on. Getting all this data is crucial to know the
-              best carbon farming practices to adopt as well as keep track of
-              the progress to account for carbon credits generated.
-            </p>
-            <p className="py-2 mb-4">
-              {" "}
               After assessment, MinnCC will help you with a carbon farming plan
               that outlines the practices leading to the creation of your
               verified carbon credits. Some common examples of carbon farming
@@ -157,6 +157,35 @@ export default function Home() {
               <li>Prescribed (rotational) grazing</li>
               <li>Nitrogen management</li>
             </ul>
+            <p className="py-2 mt-4">
+              Click{" "}
+              <a className="link" href="seller-form">
+                here
+              </a>{" "}
+              to fill out the form and get started today.
+            </p>
+
+            <h4 className="text-2xl font-bold mt-4">
+              What Can A Landowner Sell on MinCC?
+            </h4>
+            <p className="py-2 mb-4">
+              This depends on the type of land that you own. If you: 1) Own 30
+              or more acres of non-planted, naturally regenerating trees on your
+              property; 2) Have the legal right to harvest on your land; and 3)
+              Are able to commit to a 20-year agreement you are eligible for our
+              Mature Forest Program.
+            </p>
+            <p className="py-2 mb-4">
+              Our Mature Forest Program is designed to help you grow a more
+              robust forest through sustainable management and harvesting over
+              the next 20 years. This program generates credits by delaying
+              timber harvesting until the trees have reached a minimum forest
+              stand stocking of 130 sq. ft/acre.
+              <small className="text-gray-400 block">
+                **Salvage harvesting for personal use, like firewood, is
+                permitted. Contact MinnCC for more details.
+              </small>
+            </p>
           </div>
         </div>
         <div className="col-span-12 md:col-span-4">
